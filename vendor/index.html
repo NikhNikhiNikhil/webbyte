@@ -1,0 +1,110 @@
+
+<html>
+<head>
+    <title>Login Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+    <link rel="stylesheet" type="text/css" href="request/indexstyle.css">   
+    <style>
+    	*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,Helvetica,Sans-serif;
+  background-color: : #f1f1f1;
+  padding-bottom: 50px;
+  position: relative;
+  min-height: 100vh;
+}
+
+footer{
+  background-color: #000;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+main{
+  width: 90vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+@viewport{
+  zoom: 1.0;
+  width: extended-to-zoom;
+}
+@-ms-viewport{
+  zoom: 1.0;
+  width: extended-to-zoom;
+}
+#header{
+  min-height: 50px;
+  width: 100%;
+}
+
+#menu{
+  min-height: 40px;
+  width: 100%;
+}
+
+#main{
+  font-family:Arial,Helvetica,Sans-serif;
+  background-color: : #f1f1f1;
+  min-height: 300px;
+  width: 100%;
+}
+
+.login-box{
+  padding: 10px;
+}
+
+
+h1{
+  text-transform:capitalize;
+  text-indent:10px;
+  letter-spacing:5px;
+  text-shadow: 2px 2px white;
+  text-decoration:none;
+  text-direction:rtl;
+}
+
+</style>
+</head>
+    <body>
+	<header>
+		<div class="title">
+			<h1><font color="black"><marquee><h2>WELCOME To Vegetable Vendor Management System</h2></marquee></font></h1>
+		</div>
+		<div class="main">
+		<ul>
+		  <li><a href="request/request.php">Request Account</a></li>
+		  <li><a href="services.html">Services</a></li>
+		  <li><a href="aboutus/aboutus.html">About us</a></li>
+		  <li><a href="contactus/contactus.html">Queries</a></li>
+		</ul>
+	       </div>
+	</header>
+	<main>
+    <div class="login-box">
+<br>
+        <h1>Login Here</h1><br>
+            <form method="post" action="validate.php">
+            <p>User Name</p>
+            <input type="text" name="uname" placeholder="Enter User id" required >
+            <p>Password</p>
+            <input type="password" name="pass" placeholder="Enter Password" required>
+            <input type="submit" name="submit" value="Login">
+            <a href="forgotpw/forgot.html">Forget Password?</a> <br>
+            </form>  
+        </div> 
+        </main>
+  <footer>
+  <p>Designed By Student's Of Mit,mysore</p>
+</footer>
+    </body>
+</html>
