@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>lab2</title>
+        <style>
+            table,td,th
+            {
+                border: 1px solid white;
+                width : 30%;
+                text-align: center;
+                color: white;
+                background-color: black;
+                border-collapse: collapse;
+            }
+            table {margin: auto;}
+        </style>
+        <script type="text/javascript">
+            document.write("<table><tr><th colspan='3'>Numbers From 0 to 10 With their Squares And Cubes</th></tr>");
+            document.write("<tr><td>Number</td><td>Square</td><td>Cube</td></tr>");
+            for (var i=0;i<=10;i++) 
+            {
+               document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td></tr>");
+            }
+            document.write("</table>");
+        </script>
+    </head>
+    </html>
