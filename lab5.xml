@@ -1,0 +1,32 @@
+<?xml-stylesheet type="text/css" href="lab5.css"?>
+<html>
+	<head>
+		<h1>STUDENT DESCRIPTION</h1>
+	</head>
+	<students>
+		<student>
+			<usn>USN : 4MH16CS065</usn>
+			<name>NAME : NISHMITHA C</name>
+			<college>COLLEG : MITM</college>
+			<branch>BRANCH : CSE</branch>
+			<year>YEAR : 2019</year>
+			<e-mail>E-MAIL : nishmithac08@gmail.com</e-mail>
+		</student>
+		<student>
+			<usn>USN : 4MH16CS019</usn>
+			<name>NAME : BINDU N</name>
+			<college>COLLEG : MITM</college>
+			<branch>BRANCH : CSE</branch>
+			<year>YEAR : 2019</year>
+			<e-mail>E-MAIL : nbindu98@gmail.com</e-mail>
+		</student>
+		<student>
+			<usn>USN : 4MH16CS063</usn>
+			<name>NAME : NIKHIL K V</name>
+			<college>COLLEG : MITM</college>
+			<branch>BRANCH : CSE</branch>
+			<year>YEAR : 2019</year>
+			<e-mail>E-MAIL : nikhilkv92045@gmail.com</e-mail>
+		</student>
+	</students>
+</html>
